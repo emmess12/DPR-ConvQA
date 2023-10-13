@@ -1,0 +1,16 @@
+black
+bs4
+datasets
+matplotlib
+networkx
+numpy
+nltk
+pybind11
+python-Levenshtein
+torch_transformers
+pyyaml
+requests
+scikit-learn
+sentencepiece
+tqdm
+transformers
