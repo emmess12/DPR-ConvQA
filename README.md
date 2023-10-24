@@ -44,3 +44,10 @@ To reproduce all results, run:
 ```
 bash scripts/pipeline.sh --main-results
 ```
+
+# **Training the pipeline**
+
+To train a pipeline, just choose the config that represents the pipeline you would like to train, and run
+```
+    bash scripts/pipeline.sh --train [<PATH_TO_CONFIG>] [<SOURCES_STR>]
+```
