@@ -59,3 +59,10 @@ To train a pipeline, just choose the config that represents the pipeline you wou
 ```
     bash scripts/pipeline.sh --train [<PATH_TO_CONFIG>] [<SOURCES_STR>]
 ```
+
+# **Testing the pipeline**
+
+````
+ bash scripts/pipeline.sh --example [<PATH_TO_CONFIG>]
+
+```
