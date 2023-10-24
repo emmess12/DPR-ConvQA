@@ -20,7 +20,7 @@ TopiOCQA can be downloaded from: https://mcgill-nlp.github.io/topiocqa/ and can 
 
 ```
 python scripts/preprocess/data/topiocqa/convert_retriever_dev.py
-python scripts/preprocess/data/orquac/retriever/convert_retriever_train.py
+python scripts/preprocess/data/topiocqa/convert_retriever_train.py
 
 python scripts/preprocess/data/topiocqa/qa/convert_qa_train.py
 python scripts/preprocess/data/topiocqa/qa/convert_qa_dev.py
