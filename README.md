@@ -1,4 +1,4 @@
-# DPR-ConvQA
+# Learning Contrastive Representations for Dense Passage Retrieval in Open-domain Conversational Question Answering
 The repository is dedicated to the source code of DPR-ConvQA including the datasets utilized in the paper.
 The model in the paper is based on a pipeline structure:
 1. Entity Generation: responsible for capturing context and question entities from the conversational context and the current question.
