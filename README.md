@@ -17,7 +17,30 @@ python scripts/preprocess/data/orquac/qa/convert_qa_train.py
 python scripts/preprocess/data/orquac/qa/convert_qa_test.py
 ```
 TopiOCQA can be downloaded from: https://mcgill-nlp.github.io/topiocqa/
+# Installation
+```
+$ conda create -n dprconvqa python=3.8
+
+$ conda activate dprconvqa
+
+# install PyTorch without CUDA
+$ conda install pytorch torchvision torchaudio -c pytorch
+
+# install PyTorch for CUDA 10.2 (using GPU)
+$ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+# install PyTorch for CUDA 11.3 (using GPU)
+$ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
+$ pip install -r requirements.txt
+```
 
 # **Code**
 
 Our code is based on [CONVINSE](https://github.com/PhilippChr/CONVINSE/tree/main) and [ProConvQA](https://github.com/starsuzi/PRO-ConvQA#run)
+
+You can  reproduce all results of CONVINSE in Table 2
+To reproduce all results, run:
+```
+bash scripts/pipeline.sh --main-results
+```
