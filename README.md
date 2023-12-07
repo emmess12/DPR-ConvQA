@@ -60,16 +60,18 @@ To train a pipeline, just choose the config that represents the pipeline you wou
 
 # **Testing the pipeline**
 
-````
+```
  bash scripts/pipeline.sh --example [<PATH_TO_CONFIG>]
 
 ```
+
 # **Finetuning and Evaluation**
+
 Finally, we further finetune and evaluate the query-side encoder
-````
+```
 bash scripts/run/orquac/query_finetune.sh
 bash scripts/run/orquac/query_finetune_eval.sh
-````
+```
 
 
-````
+
