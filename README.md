@@ -45,9 +45,7 @@ $ pip install -r requirements.txt
 
 # **Code**
 
-Our code is based on [CONVINSE](https://github.com/PhilippChr/CONVINSE/tree/main) and [ProConvQA](https://github.com/starsuzi/PRO-ConvQA#run)
-
-You can  reproduce all results of CONVINSE in Table 2
+You can  reproduce all results of DPR-ConvQA in Table 2
 To reproduce all results, run:
 ```
 bash scripts/pipeline.sh --main-results
